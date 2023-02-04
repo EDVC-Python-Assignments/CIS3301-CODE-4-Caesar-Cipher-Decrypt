@@ -6,7 +6,7 @@ In this CODE assignment, you will program part of a Caesar Cipher. The Caesar Ci
 
 There are two elements in a Caesar Cipher:
 
-*  Secret: word to encrypt
+*  Encrypted: word(s) to decrypt
 *  Key: number of characters the word will be changed by.
 
 
@@ -20,3 +20,9 @@ There are two elements in a Caesar Cipher:
   + **"Enter your key: "** (note the space after the colon)
 * Return the secret to the user
   + **"\nThe secret is original_message\n"** (replace original_message with the appropriate variable)
+
+## Some encrypted messages you can use for testing
+
++  "rtcevkegaocmguaocuvgt{" key: 2
++  "Hp!Njofst" key: 1
++  "HobSdvrbVwurqj" key: 3
