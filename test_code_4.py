@@ -30,5 +30,5 @@ def test_encryption():
         "\nCaesar Cipher - Program",
         "\nEnter the secret to decrypt: ",
         "Enter your key: ",
-        "\nThe secret is "+"".join([chr(ord(x)+key) for x in secret])+"\n"
+        f"\nThe secret is {secret}\n"
     ]
