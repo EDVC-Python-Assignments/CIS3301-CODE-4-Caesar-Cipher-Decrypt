@@ -1,6 +1,6 @@
 import os,sys
 from mock_input_tests import *
-from code_3 import main
+from code_4 import main
 import random
 
 def check_if_file_exists():
@@ -21,7 +21,7 @@ def test_encryption():
     key = random.randint(1,4)
     encrypted_message = get_caesar_encryption(secret,key)
 
-    set_keyboard_input([encrypted,key])
+    set_keyboard_input([encrypted_message,key])
 
     main()
     output = get_display_output()
